@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class GetOpenbareRuimteForbiddenException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class GetOpenbareRuimteForbiddenException extends \RuntimeException implements ClientException
 {
     function __construct()

@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class GeldigVoorkomenEmbeddedBron
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class GeldigVoorkomenEmbeddedBron
 {
     /**

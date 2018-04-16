@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class GetLigplaatsenByIdVoorkomenNotFoundException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class GetLigplaatsenByIdVoorkomenNotFoundException extends \RuntimeException implements ClientException
 {
     function __construct()

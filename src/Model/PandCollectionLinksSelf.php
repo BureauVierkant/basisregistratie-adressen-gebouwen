@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class PandCollectionLinksSelf
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class PandCollectionLinksSelf
 {
     /**

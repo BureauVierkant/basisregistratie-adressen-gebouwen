@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class VerblijfsobjectLinksPandrelateringenItem
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class VerblijfsobjectLinksPandrelateringenItem
 {
     /**

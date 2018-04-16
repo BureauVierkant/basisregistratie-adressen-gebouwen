@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class Polygon
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class Polygon
 {
     /**

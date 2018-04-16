@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class NummeraanduidingCollectionLinksSelf
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class NummeraanduidingCollectionLinksSelf
 {
     /**

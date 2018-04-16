@@ -1,0 +1,19 @@
+{
+    "autoload": {
+        "psr-4": {
+            "BureauVierkant\\Basisregistratie\\": "src/"
+        }
+    },
+    "name": "bureauvierkant/basisregistratie-adressen-gebouwen",
+    "type": "library",
+    "description": "API voor de BAG-gegevens",
+    "require-dev": {
+        "jane-php/jane-php": "^4.0"
+    },
+    "authors": [
+        {
+            "name": "stephanvierkant",
+            "email": "stephan@vierkant.org"
+        }
+    ]
+}

@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class OpenbareruimteCollectionLinks
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class OpenbareruimteCollectionLinks
 {
     /**

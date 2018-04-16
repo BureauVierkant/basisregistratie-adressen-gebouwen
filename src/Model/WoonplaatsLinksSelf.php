@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class WoonplaatsLinksSelf
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class WoonplaatsLinksSelf
 {
     /**

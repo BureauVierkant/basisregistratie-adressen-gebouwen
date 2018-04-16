@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class PostLigplaatsenBadRequestException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class PostLigplaatsenBadRequestException extends \RuntimeException implements ClientException
 {
     function __construct()

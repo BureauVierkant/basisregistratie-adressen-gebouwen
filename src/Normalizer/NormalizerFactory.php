@@ -2,8 +2,17 @@
 
 namespace BureauVierkant\Basisregistratie\Normalizer;
 
+/**
+ * Class NormalizerFactory
+ *
+ * @package BureauVierkant\Basisregistratie\Normalizer
+ */
 class NormalizerFactory
 {
+
+    /**
+     * @return array
+     */
     public static function create()
     {
         $normalizers = array();

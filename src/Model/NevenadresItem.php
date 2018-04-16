@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class NevenadresItem
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class NevenadresItem
 {
     /**

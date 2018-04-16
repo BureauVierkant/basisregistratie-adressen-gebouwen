@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Endpoint;
 
+/**
+ * Class GetLigplaatsenByIdVoorkomen
+ *
+ * @package BureauVierkant\Basisregistratie\Endpoint
+ */
 class GetLigplaatsenByIdVoorkomen extends \Jane\OpenApiRuntime\Client\BaseEndpoint implements \Jane\OpenApiRuntime\Client\Psr7HttplugEndpoint
 {
     protected $id;
@@ -20,18 +25,37 @@ class GetLigplaatsenByIdVoorkomen extends \Jane\OpenApiRuntime\Client\BaseEndpoi
         $this->headerParameters = $headerParameters;
     }
     use \Jane\OpenApiRuntime\Client\Psr7HttplugEndpointTrait;
+
+    /**
+     * @return string
+     */
     function getMethod() : string
     {
         return 'GET';
     }
+
+    /**
+     * @return string
+     */
     function getUri() : string
     {
         return str_replace(array('{id}'), array($this->id), '/ligplaatsen/{id}/voorkomens');
     }
+
+    /**
+     * @param \Symfony\Component\Serializer\SerializerInterface $serializer
+     * @param \Http\Message\StreamFactory|NULL $streamFactory
+     *
+     * @return array
+     */
     function getBody(\Symfony\Component\Serializer\SerializerInterface $serializer, \Http\Message\StreamFactory $streamFactory = null) : array
     {
         return array(array(), null);
     }
+
+    /**
+     * @return \Symfony\Component\OptionsResolver\OptionsResolver
+     */
     protected function getHeadersOptionsResolver() : \Symfony\Component\OptionsResolver\OptionsResolver
     {
         $optionsResolver = parent::getHeadersOptionsResolver();

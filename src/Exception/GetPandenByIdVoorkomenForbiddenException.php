@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class GetPandenByIdVoorkomenForbiddenException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class GetPandenByIdVoorkomenForbiddenException extends \RuntimeException implements ClientException
 {
     function __construct()

@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class GetStandplaatsenForbiddenException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class GetStandplaatsenForbiddenException extends \RuntimeException implements ClientException
 {
     function __construct()

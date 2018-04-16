@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class NummeraanduidingLinksBijbehorendeOpenbareRuimte
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class NummeraanduidingLinksBijbehorendeOpenbareRuimte
 {
     /**

@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class NummeraanduidingCollectionEmbedded
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class NummeraanduidingCollectionEmbedded
 {
     /**

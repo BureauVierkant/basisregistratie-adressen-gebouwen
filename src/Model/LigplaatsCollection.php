@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class LigplaatsCollection
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class LigplaatsCollection
 {
     /**

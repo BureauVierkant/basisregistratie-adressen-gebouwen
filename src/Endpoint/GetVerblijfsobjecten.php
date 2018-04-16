@@ -2,20 +2,19 @@
 
 namespace BureauVierkant\Basisregistratie\Endpoint;
 
+/**
+ * Class GetVerblijfsobjecten
+ *
+ * @package BureauVierkant\Basisregistratie\Endpoint
+ */
 class GetVerblijfsobjecten extends \Jane\OpenApiRuntime\Client\BaseEndpoint implements \Jane\OpenApiRuntime\Client\Psr7HttplugEndpoint
 {
+
     /**
-     * 
+     *
      *
      * @param array $queryParameters {
-     *     @var string $pandrelatering Filtert op verblijfsobjecten behorende bij de opgegeven pandrelatering
-     *     @var string $geldigOp Filtert op objecten die geldig zijn op de opgegeven datum `JJJJ-MM-DD`
-     *     @var int $page Paginanummer voor paginering. Gebruik het `_links.next.href` object om te navigeren.
-     * }
      * @param array $headerParameters {
-     *     @var string $X-Api-Key Geldige API Key om deze request uit te kunnen voeren.
-     *     @var string $Accept Accept header voor Content-Negotiation. Op dit moment wordt alleen `application/hal+json` ondersteund welke ook de standaard is.
-     * }
      */
     function __construct(array $queryParameters = array(), array $headerParameters = array())
     {
@@ -23,18 +22,37 @@ class GetVerblijfsobjecten extends \Jane\OpenApiRuntime\Client\BaseEndpoint impl
         $this->headerParameters = $headerParameters;
     }
     use \Jane\OpenApiRuntime\Client\Psr7HttplugEndpointTrait;
+
+    /**
+     * @return string
+     */
     function getMethod() : string
     {
         return 'GET';
     }
+
+    /**
+     * @return string
+     */
     function getUri() : string
     {
         return '/verblijfsobjecten';
     }
+
+    /**
+     * @param \Symfony\Component\Serializer\SerializerInterface $serializer
+     * @param \Http\Message\StreamFactory|NULL $streamFactory
+     *
+     * @return array
+     */
     function getBody(\Symfony\Component\Serializer\SerializerInterface $serializer, \Http\Message\StreamFactory $streamFactory = null) : array
     {
         return array(array(), null);
     }
+
+    /**
+     * @return \Symfony\Component\OptionsResolver\OptionsResolver
+     */
     protected function getQueryOptionsResolver() : \Symfony\Component\OptionsResolver\OptionsResolver
     {
         $optionsResolver = parent::getQueryOptionsResolver();
@@ -46,6 +64,10 @@ class GetVerblijfsobjecten extends \Jane\OpenApiRuntime\Client\BaseEndpoint impl
         $optionsResolver->setAllowedTypes('page', array('int'));
         return $optionsResolver;
     }
+
+    /**
+     * @return \Symfony\Component\OptionsResolver\OptionsResolver
+     */
     protected function getHeadersOptionsResolver() : \Symfony\Component\OptionsResolver\OptionsResolver
     {
         $optionsResolver = parent::getHeadersOptionsResolver();

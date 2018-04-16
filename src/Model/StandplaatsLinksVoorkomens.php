@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class StandplaatsLinksVoorkomens
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class StandplaatsLinksVoorkomens
 {
     /**

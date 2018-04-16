@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class VerblijfsobjectCollectionLinks
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class VerblijfsobjectCollectionLinks
 {
     /**

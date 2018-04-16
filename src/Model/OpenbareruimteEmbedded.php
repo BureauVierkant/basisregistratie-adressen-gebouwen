@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class OpenbareruimteEmbedded
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class OpenbareruimteEmbedded
 {
     /**

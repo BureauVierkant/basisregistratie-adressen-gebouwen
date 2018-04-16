@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class Point
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class Point
 {
     /**

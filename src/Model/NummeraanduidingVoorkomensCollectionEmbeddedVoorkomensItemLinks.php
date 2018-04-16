@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class NummeraanduidingVoorkomensCollectionEmbeddedVoorkomensItemLinks
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class NummeraanduidingVoorkomensCollectionEmbeddedVoorkomensItemLinks
 {
     /**

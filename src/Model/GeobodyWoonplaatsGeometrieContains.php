@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class GeobodyWoonplaatsGeometrieContains
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class GeobodyWoonplaatsGeometrieContains
 {
     /**

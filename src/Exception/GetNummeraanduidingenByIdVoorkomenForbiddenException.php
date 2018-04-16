@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class GetNummeraanduidingenByIdVoorkomenForbiddenException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class GetNummeraanduidingenByIdVoorkomenForbiddenException extends \RuntimeException implements ClientException
 {
     function __construct()

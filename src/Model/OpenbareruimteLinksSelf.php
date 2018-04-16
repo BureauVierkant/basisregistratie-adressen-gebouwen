@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class OpenbareruimteLinksSelf
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class OpenbareruimteLinksSelf
 {
     /**

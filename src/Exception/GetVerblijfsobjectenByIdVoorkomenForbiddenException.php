@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class GetVerblijfsobjectenByIdVoorkomenForbiddenException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class GetVerblijfsobjectenByIdVoorkomenForbiddenException extends \RuntimeException implements ClientException
 {
     function __construct()

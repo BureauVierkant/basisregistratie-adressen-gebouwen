@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class GeldigVoorkomen
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class GeldigVoorkomen
 {
     /**

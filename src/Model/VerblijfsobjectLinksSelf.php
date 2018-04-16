@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class VerblijfsobjectLinksSelf
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class VerblijfsobjectLinksSelf
 {
     /**

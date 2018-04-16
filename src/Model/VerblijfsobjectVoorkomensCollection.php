@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class VerblijfsobjectVoorkomensCollection
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class VerblijfsobjectVoorkomensCollection
 {
     /**

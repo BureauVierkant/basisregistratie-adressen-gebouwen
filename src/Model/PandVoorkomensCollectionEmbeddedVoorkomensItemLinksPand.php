@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class PandVoorkomensCollectionEmbeddedVoorkomensItemLinksPand
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class PandVoorkomensCollectionEmbeddedVoorkomensItemLinksPand
 {
     /**

@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class GetVerblijfsobjectenByIdVoorkomenNotFoundException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class GetVerblijfsobjectenByIdVoorkomenNotFoundException extends \RuntimeException implements ClientException
 {
     function __construct()

@@ -1,0 +1,7 @@
+<?php
+
+return [
+    'openapi-file' => __DIR__ . '/bag.yaml',
+    'namespace' => 'BureauVierkant\Basisregistratie',
+    'directory' => __DIR__ . '/src',
+];

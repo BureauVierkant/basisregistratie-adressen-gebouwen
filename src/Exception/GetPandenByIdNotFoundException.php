@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Exception;
 
+/**
+ * Class GetPandenByIdNotFoundException
+ *
+ * @package BureauVierkant\Basisregistratie\Exception
+ */
 class GetPandenByIdNotFoundException extends \RuntimeException implements ClientException
 {
     function __construct()

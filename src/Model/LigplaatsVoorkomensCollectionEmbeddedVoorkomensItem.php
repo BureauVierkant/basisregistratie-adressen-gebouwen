@@ -2,6 +2,11 @@
 
 namespace BureauVierkant\Basisregistratie\Model;
 
+/**
+ * Class LigplaatsVoorkomensCollectionEmbeddedVoorkomensItem
+ *
+ * @package BureauVierkant\Basisregistratie\Model
+ */
 class LigplaatsVoorkomensCollectionEmbeddedVoorkomensItem
 {
     /**
