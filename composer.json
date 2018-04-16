@@ -7,7 +7,7 @@
     "name": "bureauvierkant/basisregistratie-adressen-gebouwen",
     "type": "library",
     "description": "API voor de BAG-gegevens",
-    "require-dev": {
+    "require": {
         "jane-php/jane-php": "^4.0"
     },
     "authors": [
